@@ -14,25 +14,33 @@ Before you begin, ensure that you have the following installed on your machine:
 
 ## Running locally
 
-1. Clone the repository:
+1. Clone the repository
 
    ```bash
    git clone https://github.com/roottraveller/caledonian-park-friends-group-html-nextjs.git 
 
-2. Navigate to the project directory:
+2. Navigate to the project directory
     ```bash
     cd caledonian-park-friends-group-html-nextjs 
    
-3. Install the dependencies: 
+3. Install the dependencies 
    ```bash
    npm install
    
-4. Build the project: 
+4. Run the development server
+   ```bash
+   npm run dev
+
+5. Once the application is started, you can access it in your browser at http://localhost:3000
+
+
+## Make production Build and Run 
+1. Build the project 
    ```bash
    next build 
    
-5. Start the application: 
+2. Start the application
    ```bash
    next start 
    
-6. Once the application is started, you can access it in your browser at http://localhost:3000 
+3. you can access it in your browser at http://localhost:3000 

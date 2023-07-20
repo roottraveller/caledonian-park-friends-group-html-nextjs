@@ -1,8 +1,8 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
+import SingleBlog from "@/components/social/SingleBlog";
+import blogData from "@/components/social/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
-const Blog = () => {
+const Social = () => {
   return (
     <>
       <Breadcrumb
@@ -91,4 +91,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Social;
