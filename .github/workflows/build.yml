@@ -2,9 +2,6 @@ name: Build NPM
 
 on:
   pull_request:
-    paths-ignore:
-      - '**.md'
-      - '.github/workflows/**.yml'
     branches:
       - main
 
