@@ -12,25 +12,26 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="images/logo/logo-2.svg"
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
-                  />
-                  <Image
-                    src="images/logo/logo.svg"
-                    alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
-                  />
+                <Link href="/" className="mb-8 inline-block font-bold text-xl"
+                      style={{ color: "#068932"}} >
+                  {/*<Image*/}
+                  {/*  src="images/logo/logo-2.svg"*/}
+                  {/*  alt="logo"*/}
+                  {/*  className="w-full dark:hidden"*/}
+                  {/*  width={140}*/}
+                  {/*  height={30}*/}
+                  {/*/>*/}
+                  {/*<Image*/}
+                  {/*  src="images/logo/logo.svg"*/}
+                  {/*  alt="logo"*/}
+                  {/*  className="hidden w-full dark:block"*/}
+                  {/*  width={140}*/}
+                  {/*  height={30}*/}
+                  {/*/>*/}
+                  CPFG
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  All rights reserved.
                 </p>
                 <div className="flex items-center">
                   <a
