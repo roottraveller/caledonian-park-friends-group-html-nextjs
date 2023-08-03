@@ -1,7 +1,7 @@
 // components/MultiLineText.js
 import React from 'react';
 
-const MultiLineText = ({ paragraph }) => {
+const MultiLineText = ({paragraph}) => {
     const lines = paragraph.split("\n");
 
     return (
@@ -9,7 +9,7 @@ const MultiLineText = ({ paragraph }) => {
             {lines.map((line, index) => (
                 <React.Fragment key={index}>
                     {line}
-                    <br />
+                    <br/>
                 </React.Fragment>
             ))}
         </p>
