@@ -1,6 +1,8 @@
+import {StaticImageData} from "next/image";
+
 export type Feature = {
-  id: number;
-  icon: JSX.Element;
-  title: string;
-  paragraph: string;
+    id: number;
+    icon: string;
+    title: string;
+    paragraph: string;
 };
