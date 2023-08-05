@@ -62,10 +62,10 @@ const Header = () => {
                                 {/*  className="w-full dark:hidden"*/}
                                 {/*/>*/}
                                 {/*<Image*/}
-                                {/*  src="/images/logo/Clocktower HQ cropped.jpg"*/}
+                                {/*  src="/images/logo/cpfg-logo-main.jpg"*/}
                                 {/*  alt="logo"*/}
-                                {/*  width={140}*/}
-                                {/*  height={30}*/}
+                                {/*  width={80}*/}
+                                {/*  height={80}*/}
                                 {/*  className="hidden w-full dark:block"*/}
                                 {/*/>*/}
                                 CPFG

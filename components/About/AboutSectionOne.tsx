@@ -28,7 +28,9 @@ const AboutSectionOne = () => {
                         <div className="w-full px-4 lg:w-1/2">
                             <SectionTitle
                                 title="Past, Present and Future of Caledonian Park"
-                                paragraph=""
+                                paragraph1=""
+                                paragraph2=""
+                                paragraph3=""
                                 mb="0px"
                                 mt="0px"
                             />
