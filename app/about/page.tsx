@@ -1,6 +1,7 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import AboutSectionThree from "@/components/About/AboutSectionThree";
 
 const AboutPage = () => {
     return (
@@ -11,6 +12,7 @@ const AboutPage = () => {
             />
             <AboutSectionOne/>
             <AboutSectionTwo/>
+            <AboutSectionThree/>
         </>
     );
 };
