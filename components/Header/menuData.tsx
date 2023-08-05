@@ -16,7 +16,7 @@ const menuData: Menu[] = [
     {
         id: 3,
         title: "Support",
-        path: "/contact",
+        path: "/contact-todo",
         newTab: false,
     },
     {
@@ -28,12 +28,6 @@ const menuData: Menu[] = [
                 id: 41,
                 title: "About Page",
                 path: "/about",
-                newTab: false,
-            },
-            {
-                id: 42,
-                title: "Contact Page",
-                path: "/contact",
                 newTab: false,
             },
             {
@@ -73,6 +67,24 @@ const menuData: Menu[] = [
                 newTab: false,
             },
         ],
+    },
+    {
+        id: 5,
+        title: "Gallery",
+        path: "/gallery",
+        newTab: false,
+    },
+    {
+        id: 6,
+        title: "Documents",
+        path: "/documents",
+        newTab: false,
+    },
+    {
+        id: 7,
+        title: "Contact Us",
+        path: "/contact",
+        newTab: false,
     },
 ];
 export default menuData;
