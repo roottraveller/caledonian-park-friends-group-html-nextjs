@@ -1,6 +1,6 @@
 import SectionTitle from "../Common/SectionTitle";
-import SingleBlog from "../social/SingleBlog";
-import blogData from "../social/blogData";
+import SingleBlog from "@/components/Social/SingleBlog";
+import blogData from "@/components/Social/blogData";
 
 const Blog = () => {
     return (
