@@ -21,6 +21,17 @@ const InteractiveMap = () => {
     );
 };
 
-const Marker = ({lat, lng, text}) => <div className="marker" lat={lat} lng={lng}>{text}</div>;
+const Marker = ({lat, lng, text}) => (
+    <div
+        className="marker"
+        style={{
+            position: 'absolute',
+            left: `${lng}%`,
+            top: `${lat}%`,
+        }}
+    >
+        {text}
+    </div>
+);
 
 export default InteractiveMap;
