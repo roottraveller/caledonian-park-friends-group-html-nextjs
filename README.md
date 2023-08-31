@@ -44,3 +44,7 @@ Before you begin, ensure that you have the following installed on your machine:
    next start 
 
 3. you can access it in your browser at http://localhost:3000 
+
+## Troubleshooting
+
+If you encounter any issues with the project, consult our [troubleshooting document](troubleshooting.md) for guidance on resolving common problems.
