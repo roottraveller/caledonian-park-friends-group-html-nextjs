@@ -18,17 +18,15 @@ jobs:
         with:
           node-version: 16.8.0
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build the Next.js app
-        run: npm run build
-
-      - name: Deploy to GitHub Pages
+      - name: Build
         run: |
+          npm ci
+          npm run build
           npm run export
-          git checkout --orphan gh-pages
-          git --work-tree out add --all
-          git --work-tree out commit -m "GitHub Pages deployment"
-          git branch -D gh-pages
-          git push origin --force gh-pages:gh-pages
+          touch out/.nojekyll
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.4.0
+        with:
+          branch: gh-pages
+          folder: out
