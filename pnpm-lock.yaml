@@ -4564,7 +4564,7 @@ packages:
 
   /np@7.6.3:
     resolution: { integrity: sha512-GTFNvIhu/cZqzUhil/AlISCiipYeAUVx0JtyjtmumFJvWogSewUSAshFi5MSMc6BOj9C98s8NAFZiqlHb2wQPQ== }
-    engines: { git: '>=2.11.0', node: '>=10', npm: '>=6.8.0', yarn: '>=1.7.0' }
+    engines: { git: '>=2.11.0', node: '>=10', npm: '>=6.14.0', yarn: '>=1.7.0' }
     hasBin: true
     dependencies:
       '@samverschueren/stream-to-observable': 0.3.1(rxjs@6.6.7)
@@ -6300,7 +6300,7 @@ packages:
     peerDependencies:
       '@babel/core': '*'
       babel-plugin-macros: '*'
-      react: '>= 16.8.0 || 17.x.x || ^18.0.0-0'
+      react: '>= 16.14.0 || 17.x.x || ^18.0.0-0'
     peerDependenciesMeta:
       '@babel/core':
         optional: true
