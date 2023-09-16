@@ -2614,11 +2614,7 @@ packages:
     peerDependencies:
       '@babel/core': '*'
       babel-plugin-macros: '*'
-<<<<<<< Updated upstream
-      react: '>= 16.14.0 || 17.x.x || ^18.0.0-0'
-=======
       react: '>= 16.8.0 || 17.x.x || ^18.0.0-0'
->>>>>>> Stashed changes
     peerDependenciesMeta:
       '@babel/core':
         optional: true
