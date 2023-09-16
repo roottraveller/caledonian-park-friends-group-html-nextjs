@@ -6300,7 +6300,7 @@ packages:
     peerDependencies:
       '@babel/core': '*'
       babel-plugin-macros: '*'
-      react: '>= 16.14.0 || 17.x.x || ^18.0.0-0'
+      react: '>= 16.20.2 || 17.x.x || ^18.0.0-0'
     peerDependenciesMeta:
       '@babel/core':
         optional: true
