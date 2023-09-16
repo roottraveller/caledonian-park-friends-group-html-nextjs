@@ -6,10 +6,10 @@ Welcome to this project!
 
 Before you begin, ensure that you have the following installed on your machine:
 
-- Node.js@16.14.0: [Download and install Node.js](https://nodejs.org) OR
+- Node.js@16.20.2: [Download and install Node.js](https://nodejs.org) OR
 - ```bash
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-  nvm install 16.14.0
+  nvm install 16.20.2
   node --version
 
 ## Running locally
