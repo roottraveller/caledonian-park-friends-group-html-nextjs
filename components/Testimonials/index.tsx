@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
     {
         id: 1,
-        name: "Musharof Chy",
-        designation: "Founder @TailGrids",
+        name: "Abc 1",
+        designation: "Daily User @Park",
         content:
-            "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+            "I am so impressed with the Park. It's intuitive. It's clean. It's distraction free. If you're building a community.",
         image: "/images/testimonials/auth-01.png",
         star: 5,
     },
     {
         id: 2,
-        name: "Devid Weilium",
-        designation: "Founder @UIdeck",
+        name: "Abc 2",
+        designation: "Volunteer @CPFG",
         content:
-            "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+            "Volunteering at CPFG has been an incredibly rewarding experience. It's heartwarming to see the positive impact we've made, from planting trees to organizing community events.",
         image: "/images/testimonials/auth-02.png",
         star: 5,
     },
     {
         id: 3,
-        name: "Lethium Frenci",
-        designation: "Founder @Lineicons",
+        name: "Abc 3",
+        designation: "Neighbours @Park",
         content:
-            "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+            "The park is well-maintained, and the kids had a blast at the playground. We enjoyed a lovely picnic. It's a great place for families to unwind.",
         image: "/images/testimonials/auth-03.png",
         star: 5,
     },
@@ -37,8 +37,8 @@ const Testimonials = () => {
         <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
             <div className="container">
                 <SectionTitle
-                    title="What Our Users Says"
-                    paragraph1="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+                    title="What CPFG Users Says"
+                    paragraph1=""
                     paragraph2=""
                     paragraph3=""
                     center
@@ -87,8 +87,8 @@ const Testimonials = () => {
                             y2="459.865"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stopColor="#4A6CF7"/>
-                            <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"/>
+                            <stop stopColor="#068932"/>
+                            <stop offset="1" stopColor="#068932" stopOpacity="0"/>
                         </linearGradient>
                         <linearGradient
                             id="paint1_linear_83:2"
@@ -98,8 +98,8 @@ const Testimonials = () => {
                             y2="675.565"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stopColor="#4A6CF7"/>
-                            <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"/>
+                            <stop stopColor="#068932"/>
+                            <stop offset="1" stopColor="#068932" stopOpacity="0"/>
                         </linearGradient>
                     </defs>
                 </svg>
@@ -139,8 +139,8 @@ const Testimonials = () => {
                             y2="8.15715"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stopColor="#4A6CF7" stopOpacity="0"/>
-                            <stop offset="1" stopColor="#4A6CF7"/>
+                            <stop stopColor="#068932" stopOpacity="0"/>
+                            <stop offset="1" stopColor="#068932"/>
                         </linearGradient>
                         <linearGradient
                             id="paint1_linear_72:302"
@@ -150,8 +150,8 @@ const Testimonials = () => {
                             y2="-2.84285"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stopColor="#4A6CF7" stopOpacity="0"/>
-                            <stop offset="1" stopColor="#4A6CF7"/>
+                            <stop stopColor="#068932" stopOpacity="0"/>
+                            <stop offset="1" stopColor="#068932"/>
                         </linearGradient>
                         <linearGradient
                             id="paint2_linear_72:302"
@@ -161,8 +161,8 @@ const Testimonials = () => {
                             y2="19.1572"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stopColor="#4A6CF7" stopOpacity="0"/>
-                            <stop offset="1" stopColor="#4A6CF7"/>
+                            <stop stopColor="#068932" stopOpacity="0"/>
+                            <stop offset="1" stopColor="#068932"/>
                         </linearGradient>
                         <linearGradient
                             id="paint3_linear_72:302"
@@ -172,8 +172,8 @@ const Testimonials = () => {
                             y2="31.1572"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stopColor="#4A6CF7" stopOpacity="0"/>
-                            <stop offset="1" stopColor="#4A6CF7"/>
+                            <stop stopColor="#068932" stopOpacity="0"/>
+                            <stop offset="1" stopColor="#068932"/>
                         </linearGradient>
                     </defs>
                 </svg>

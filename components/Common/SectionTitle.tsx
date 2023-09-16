@@ -1,5 +1,3 @@
-import MultiLineText from "@/components/Features/MultiLineText";
-
 const SectionTitle = ({
                           title,
                           paragraph1,

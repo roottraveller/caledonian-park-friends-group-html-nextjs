@@ -1,10 +1,7 @@
-import SectionTitle from "../Common/SectionTitle";
-import SingleBlog from "@/components/Social/SingleBlog";
-import blogData from "@/components/Social/blogData";
 import galleryData from "@/components/Gallery/galleryData";
 import SingleGallery from "@/components/Gallery/SingleGallery";
 
-const Blog = () => {
+const Gallery = () => {
     return (
         <section id="blog" className="bg-primary/5 py-16 md:py-20 lg:py-28">
             <div className="container">
@@ -28,4 +25,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;
+export default Gallery;

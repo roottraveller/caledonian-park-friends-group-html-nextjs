@@ -1,4 +1,3 @@
-import {Blog} from "@/types/blog";
 import {Gallery} from "@/types/gallery";
 
 const galleryData: Gallery[] = [

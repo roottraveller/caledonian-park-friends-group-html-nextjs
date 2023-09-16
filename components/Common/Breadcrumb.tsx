@@ -67,8 +67,8 @@ const Breadcrumb = ({
                     y2="-97.1485"
                     gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7"/>
-                  <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"/>
+                  <stop stopColor="#068932"/>
+                  <stop offset="1" stopColor="#068932" stopOpacity="0"/>
                 </linearGradient>
               </defs>
             </svg>
@@ -100,8 +100,8 @@ const Breadcrumb = ({
                     y2="37.0429"
                     gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7"/>
-                  <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"/>
+                  <stop stopColor="#068932"/>
+                  <stop offset="1" stopColor="#068932" stopOpacity="0"/>
                 </linearGradient>
                 <linearGradient
                     id="paint1_linear_0:1"
@@ -111,8 +111,8 @@ const Breadcrumb = ({
                     y2="32.3398"
                     gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7"/>
-                  <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"/>
+                  <stop stopColor="#068932"/>
+                  <stop offset="1" stopColor="#068932" stopOpacity="0"/>
                 </linearGradient>
               </defs>
             </svg>
