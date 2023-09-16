@@ -1,5 +1,4 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
 import Gallery from "@/components/Gallery";
 
 const GalleryPage = () => {

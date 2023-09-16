@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -101,34 +100,43 @@ const Footer = () => {
                         <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
                             <div className="mb-12 lg:mb-16">
                                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                                    Useful Links
+                                    About CPFG
                                 </h2>
                                 <ul>
                                     <li>
                                         <a
-                                            href="/"
+                                            href="/about/cpfg"
                                             className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                                         >
                                             {" "}
-                                            Blog{" "}
+                                            About CPFG{" "}
                                         </a>
                                     </li>
                                     <li>
                                         <a
-                                            href="/"
+                                            href="/about/history"
                                             className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                                         >
                                             {" "}
-                                            Pricing{" "}
+                                            History of the Park{" "}
                                         </a>
                                     </li>
                                     <li>
                                         <a
-                                            href="/"
+                                            href="/about/park-groups"
                                             className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                                         >
                                             {" "}
-                                            About{" "}
+                                            Park Groups{" "}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/about/documents"
+                                            className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                                        >
+                                            {" "}
+                                            Policies{" "}
                                         </a>
                                     </li>
                                 </ul>
@@ -138,34 +146,52 @@ const Footer = () => {
                         <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
                             <div className="mb-12 lg:mb-16">
                                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                                    Terms
+                                    What’s here
                                 </h2>
                                 <ul>
                                     <li>
                                         <a
-                                            href="/"
+                                            href="/whats-here/nature-in-the-park"
                                             className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                                         >
                                             {" "}
-                                            TOS{" "}
+                                            Nature in the park, ponds, orchards etc{" "}
                                         </a>
                                     </li>
                                     <li>
                                         <a
-                                            href="/"
+                                            href="/whats-here/family-activities"
                                             className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                                         >
                                             {" "}
-                                            Privacy Policy{" "}
+                                            Family Activities{" "}
                                         </a>
                                     </li>
                                     <li>
                                         <a
-                                            href="/"
+                                            href="/whats-here/clock-tower"
                                             className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                                         >
                                             {" "}
-                                            Refund Policy{" "}
+                                            Clock Tower, Guided Tours{" "}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/whats-here/amenities"
+                                            className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                                        >
+                                            {" "}
+                                            Amenities e.g. Café, Toilets etc{" "}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/whats-here/amphitheatre"
+                                            className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                                        >
+                                            {" "}
+                                            Amphitheatre{" "}
                                         </a>
                                     </li>
                                 </ul>
@@ -175,34 +201,43 @@ const Footer = () => {
                         <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
                             <div className="mb-12 lg:mb-16">
                                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                                    Support & Help
+                                    Get Involved
                                 </h2>
                                 <ul>
                                     <li>
                                         <a
-                                            href="/"
+                                            href="/get-involved/contact"
                                             className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                                         >
                                             {" "}
-                                            Open Support Ticket{" "}
+                                            Contact Us{" "}
                                         </a>
                                     </li>
                                     <li>
                                         <a
-                                            href="/"
+                                            href="/get-involved/events-calendar"
                                             className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                                         >
                                             {" "}
-                                            Terms of Use{" "}
+                                            Events Calendar{" "}
                                         </a>
                                     </li>
                                     <li>
                                         <a
-                                            href="/"
+                                            href="/social"
                                             className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                                         >
                                             {" "}
-                                            About{" "}
+                                            Social Media{" "}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/gallery"
+                                            className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                                        >
+                                            {" "}
+                                            Gallery{" "}
                                         </a>
                                     </li>
                                 </ul>
@@ -210,88 +245,15 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="bg-primary/10 py-8">
                     <div className="container">
                         <p className="text-center text-base text-body-color dark:text-white">
-                            Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js
-                            Templates</a>
+                            © 2023 CPFG
                         </p>
                     </div>
                 </div>
-                <div className="absolute right-0 top-14 z-[-1]">
-                    <svg
-                        width="55"
-                        height="99"
-                        viewBox="0 0 55 99"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#959CB1"/>
-                        <mask
-                            id="mask0_94:899"
-                            style={{maskType: "alpha"}}
-                            maskUnits="userSpaceOnUse"
-                            x="0"
-                            y="0"
-                            width="99"
-                            height="99"
-                        >
-                            <circle
-                                opacity="0.8"
-                                cx="49.5"
-                                cy="49.5"
-                                r="49.5"
-                                fill="#4A6CF7"
-                            />
-                        </mask>
-                        <g mask="url(#mask0_94:899)">
-                            <circle
-                                opacity="0.8"
-                                cx="49.5"
-                                cy="49.5"
-                                r="49.5"
-                                fill="url(#paint0_radial_94:899)"
-                            />
-                            <g opacity="0.8" filter="url(#filter0_f_94:899)">
-                                <circle cx="53.8676" cy="26.2061" r="20.3824" fill="white"/>
-                            </g>
-                        </g>
-                        <defs>
-                            <filter
-                                id="filter0_f_94:899"
-                                x="12.4852"
-                                y="-15.1763"
-                                width="82.7646"
-                                height="82.7646"
-                                filterUnits="userSpaceOnUse"
-                                colorInterpolationFilters="sRGB"
-                            >
-                                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
-                                <feBlend
-                                    mode="normal"
-                                    in="SourceGraphic"
-                                    in2="BackgroundImageFix"
-                                    result="shape"
-                                />
-                                <feGaussianBlur
-                                    stdDeviation="10.5"
-                                    result="effect1_foregroundBlur_94:899"
-                                />
-                            </filter>
-                            <radialGradient
-                                id="paint0_radial_94:899"
-                                cx="0"
-                                cy="0"
-                                r="1"
-                                gradientUnits="userSpaceOnUse"
-                                gradientTransform="translate(49.5 49.5) rotate(90) scale(53.1397)"
-                            >
-                                <stop stopOpacity="0.47"/>
-                                <stop offset="1" stopOpacity="0"/>
-                            </radialGradient>
-                        </defs>
-                    </svg>
-                </div>
+
                 <div className="absolute left-0 bottom-24 z-[-1]">
                     <svg
                         width="79"
@@ -347,8 +309,8 @@ const Footer = () => {
                                 y2="59.8878"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stopColor="#4A6CF7" stopOpacity="0.62"/>
-                                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"/>
+                                <stop stopColor="#068932" stopOpacity="0.62"/>
+                                <stop offset="1" stopColor="#068932" stopOpacity="0"/>
                             </linearGradient>
                             <linearGradient
                                 id="paint1_linear_94:889"
@@ -358,8 +320,8 @@ const Footer = () => {
                                 y2="20.668"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stopColor="#4A6CF7" stopOpacity="0"/>
-                                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.51"/>
+                                <stop stopColor="#068932" stopOpacity="0"/>
+                                <stop offset="1" stopColor="#068932" stopOpacity="0.51"/>
                             </linearGradient>
                             <linearGradient
                                 id="paint2_linear_94:889"
@@ -369,8 +331,8 @@ const Footer = () => {
                                 y2="25.1062"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stopColor="#4A6CF7" stopOpacity="0.62"/>
-                                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"/>
+                                <stop stopColor="#068932" stopOpacity="0.62"/>
+                                <stop offset="1" stopColor="#068932" stopOpacity="0"/>
                             </linearGradient>
                             <linearGradient
                                 id="paint3_linear_94:889"
@@ -380,8 +342,8 @@ const Footer = () => {
                                 y2="80.6826"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stopColor="#4A6CF7" stopOpacity="0"/>
-                                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.51"/>
+                                <stop stopColor="#068932" stopOpacity="0"/>
+                                <stop offset="1" stopColor="#068932" stopOpacity="0.51"/>
                             </linearGradient>
                             <linearGradient
                                 id="paint4_linear_94:889"
@@ -391,8 +353,8 @@ const Footer = () => {
                                 y2="58.2156"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stopColor="#4A6CF7" stopOpacity="0.62"/>
-                                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"/>
+                                <stop stopColor="#068932" stopOpacity="0.62"/>
+                                <stop offset="1" stopColor="#068932" stopOpacity="0"/>
                             </linearGradient>
                             <linearGradient
                                 id="paint5_linear_94:889"
@@ -402,8 +364,8 @@ const Footer = () => {
                                 y2="41.6598"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stopColor="#4A6CF7" stopOpacity="0"/>
-                                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.51"/>
+                                <stop stopColor="#068932" stopOpacity="0"/>
+                                <stop offset="1" stopColor="#068932" stopOpacity="0.51"/>
                             </linearGradient>
                         </defs>
                     </svg>
