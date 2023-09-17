@@ -48,3 +48,9 @@ Before you begin, ensure that you have the following installed on your machine:
 ## Troubleshooting
 
 If you encounter any issues with the project, consult our [troubleshooting document](troubleshooting.md) for guidance on resolving common problems.
+
+## Deployment on Netlify
+https://main--caledonian-park-friends-group.netlify.app/ 
+
+## Contributing
+If you would like to contribute to this project, please open an issue or submit a pull request.
