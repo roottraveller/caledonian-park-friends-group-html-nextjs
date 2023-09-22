@@ -30,21 +30,20 @@ const AboutPage = () => {
 
                             <div className="w-full px-4 lg:w-1/2">
                                 <div
-                                    className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                                    className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px]"
                                     data-wow-delay=".2s"
                                 >
                                     <div>
                                         <Image
-                                            src="/images/about/nature_in_park.jpeg"
+                                            src="/images/whats-here/friendsstall300717.jpg"
                                             alt="about-image"
                                             fill
                                             className="mx-auto max-w-full lg:mr-0"
                                         />
                                     </div>
                                 </div>
-                                <div
-                                    className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0 text-sm">
-                                </div>
+                                {/*<div className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px]  text-sm">*/}
+                                {/*</div>*/}
 
                             </div>
                         </div>

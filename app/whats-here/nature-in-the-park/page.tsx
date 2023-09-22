@@ -12,7 +12,7 @@ const AboutPage = () => {
 
             <section id="about" className="pt-8 md:pt-10 lg:pt-14">
                 <div className="container">
-                    <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+                    <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-20">
                         <div className="-mx-4 flex flex-wrap">
                             <div className="w-full px-4 lg:w-1/2">
                                 <SectionTitle
@@ -39,7 +39,7 @@ const AboutPage = () => {
 
                             <div className="w-full px-4 lg:w-1/2">
                                 <div
-                                    className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                                    className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px]"
                                     data-wow-delay=".2s"
                                 >
                                     <div>
@@ -51,9 +51,8 @@ const AboutPage = () => {
                                         />
                                     </div>
                                 </div>
-                                <div className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0 text-sm">
-                                </div>
-
+                                {/*<div className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] text-sm">*/}
+                                {/*</div>*/}
                             </div>
                         </div>
                     </div>
