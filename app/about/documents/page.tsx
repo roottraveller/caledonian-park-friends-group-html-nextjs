@@ -28,22 +28,20 @@ const DocumentPage = () => {
                                 <div className="mb-12 text-base font-medium text-body-color">
                                     <ol type="1">
                                         <li>
-                                            1. <a href="../../../public/documents/CPFG_Volunteer_Expenses_Policy.doc"
+                                            1. <a href="/documents/CPFG_Volunteer_Expenses_Policy.doc"
                                                   style={{color: '#068932'}}>CPFG Volunteer Expenses Policy</a>
                                         </li>
                                         <li>
-                                            2. <a
-                                            href="../../../public/documents/CPFG_Volunteer_Expression_of_Interest.doc"
-                                            style={{color: '#068932'}}>CPFG Volunteer Expression of Interest</a>
+                                            2. <a href="/documents/CPFG_Volunteer_Expression_of_Interest.doc"
+                                                  style={{color: '#068932'}}>CPFG Volunteer Expression of Interest</a>
                                         </li>
                                         <li>
-                                            3. <a href="../../../public/documents/CPFG_Want_To_Know_More.doc"
+                                            3. <a href="/documents/CPFG_Want_To_Know_More.doc"
                                                   style={{color: '#068932'}}>CPFG Want To Know More</a>
                                         </li>
                                         <li>
-                                            4. <a
-                                            href="../../../public/documents/CPFG_Welcome_letter_Volunteer_Guide.doc"
-                                            style={{color: '#068932'}}>CPFG Welcome Letter Volunteer Guide</a>
+                                            4. <a href="/documents/CPFG_Welcome_letter_Volunteer_Guide.doc"
+                                                  style={{color: '#068932'}}>CPFG Welcome Letter Volunteer Guide</a>
                                         </li>
                                     </ol>
                                 </div>
